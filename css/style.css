@@ -1,0 +1,109 @@
+body {
+    display: block;
+    font-family: \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.name {
+    font-size: 32px;
+    margin: 0 0 0 0;
+}
+
+.secondName {
+    font-size: 22px;
+    margin: 5px 0 0 0;
+    font-weight: 400;
+}
+
+header {
+    display: block;
+
+}
+
+.header {
+    background-color: #4a4f56;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    color: #f2858e; 
+}
+
+
+h1 {
+    display: block;
+    font-weight: bold;
+}
+
+.content {
+    background-color: #3b3f45;
+    padding: 34px 0 94px 0;
+}
+
+.container {
+max-width: 720px;
+margin: 0 auto;
+}
+
+form {
+    text-align: left;
+    font-size: 24px;
+    padding: 12.5px 0px;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    transition: all .1s ease-in;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    margin: 35px 0 0 0;
+}
+
+input:checked + label {
+    text-decoration: line-through;
+    color: #a3a0b5;
+}
+
+
+.light:hover {
+    background-color: #625E77;
+}
+
+.light {
+    background-color: #88839E;
+    color: white;
+}
+
+.dark:hover {
+    background-color: #625E77;
+}
+
+.dark {
+    background-color: #7A7593;
+    color: white;
+}  
+
+button {
+    background-color: #4a4f56;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: #eb7e7f;
+    width: 100%;
+    font-size: 23px;
+    margin: 35px 0 0 0;
+    padding: 20px 0;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #6c7178;
+}
+
+button:active {
+    background-color: #eb7e7f;
+    color: #6c7178;
+}
